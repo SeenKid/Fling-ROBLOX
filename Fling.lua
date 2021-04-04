@@ -42,7 +42,7 @@ flung.Text = "Fling R15"
 flung.TextColor3 = Color3.new(1, 1, 1)
 flung.TextSize = 14
 flung.MouseButton1Click:connect(function()
-power = 250
+power = 350 --click several time on the button makes you get very fast--click several time on the button makes you get very fast
 
 game:GetService('RunService').Stepped:connect(function()
 game.Players.LocalPlayer.Character.Head.CanCollide = false
@@ -71,7 +71,7 @@ fling.Text = "Fling R6"
 fling.TextColor3 = Color3.new(1, 1, 1)
 fling.TextSize = 14
 fling.MouseButton1Click:connect(function()
-power = 500
+power = 350 --click several time on the button makes you get very fast
 
 game:GetService('RunService').Stepped:connect(function()
 game.Players.LocalPlayer.Character.Head.CanCollide = false
