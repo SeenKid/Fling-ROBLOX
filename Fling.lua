@@ -1,11 +1,9 @@
--- Farewell Infortality.
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local FEFLINGGUI = Instance.new("TextLabel")
 local flung = Instance.new("TextButton")
 local fling = Instance.new("TextButton")
 local close = Instance.new("TextButton")
---Properties:
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
